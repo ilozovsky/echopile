@@ -1,5 +1,8 @@
 # echopile
 
+[![PyPI version](https://img.shields.io/pypi/v/echopile)](https://pypi.org/project/echopile/)
+[![Python versions](https://img.shields.io/pypi/pyversions/echopile)](https://pypi.org/project/echopile/)
+
 `echopile` is a Python application with a graphical user interface for processing and interpretation of low-strain impact pile integrity testing data (sonic echo method), with support for superlet-based time-frequency analysis.
 
 Links: [PyPI](https://pypi.org/project/echopile/) | [GitHub repository](https://github.com/ilozovsky/echopile) | [Releases](https://github.com/ilozovsky/echopile/releases) | [GitHub Discussions](https://github.com/ilozovsky/echopile/discussions)
@@ -9,6 +12,51 @@ Documentation is provided directly in the application via info boxes for each fe
 Questions are welcome in GitHub Discussions. Direct contact: `i.n.lozovsky@gmail.com`
 
 ![echopile screenshot](docs/readme-main-analysis.png)
+
+## Installation
+
+Requirements: Python 3.10+
+
+Install from PyPI:
+
+```bash
+pip install echopile
+```
+
+Optional SEG-Y support:
+
+```bash
+pip install "echopile[segy]"
+```
+
+Install from source:
+
+```bash
+pip install .
+```
+
+## Quick start
+
+Run the application:
+
+```bash
+echopile
+```
+
+or:
+
+```bash
+python -m echopile
+```
+
+The interface opens at:
+
+`http://127.0.0.1:8050`
+
+### First run
+
+1. Start `echopile`.
+2. Load the example file [`Vel (Z_component) (big probe)_F_2000.snc`](examples/Vel%20(Z_component)%20(big%20probe)_F_2000.snc).
 
 ## Features
 
@@ -56,51 +104,6 @@ Questions are welcome in GitHub Discussions. Direct contact: `i.n.lozovsky@gmail
 - Interactive GUI with per-feature help boxes
 - Signal, spectrum, and SLT views
 
-## Installation
-
-Requirements: Python 3.10+
-
-Install from PyPI:
-
-```bash
-pip install echopile
-```
-
-Optional SEG-Y support:
-
-```bash
-pip install "echopile[segy]"
-```
-
-Install from source:
-
-```bash
-pip install .
-```
-
-## Quick start
-
-Run the application:
-
-```bash
-echopile
-```
-
-or:
-
-```bash
-python -m echopile
-```
-
-The interface opens at:
-
-`http://127.0.0.1:8050`
-
-### First run
-
-1. Start `echopile`.
-2. Load the example file [`Vel (Z_component) (big probe)_F_2000.snc`](examples/Vel%20(Z_component)%20(big%20probe)_F_2000.snc).
-
 ## Supported input formats
 
 - `.snc`
@@ -123,7 +126,4 @@ Bugs / features -> [GitHub Issues](https://github.com/ilozovsky/echopile/issues)
 
 ## Superlet Analysis Reference
 
-Moca, V. V., Buzsaki, G., Draguhn, A. (2021)  
-Time-frequency super-resolution with superlets  
-*Nature Communications*, 12, 337  
-https://doi.org/10.1038/s41467-020-20539-9
+Moca, V. V., Buzsaki, G., Draguhn, A. (2021). Time-frequency super-resolution with superlets. *Nature Communications*, 12, 337. <a href="https://doi.org/10.1038/s41467-020-20539-9" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41467-020-20539-9</a>
