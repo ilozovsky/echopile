@@ -3,7 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/echopile)](https://pypi.org/project/echopile/)
 [![Python versions](https://img.shields.io/pypi/pyversions/echopile)](https://pypi.org/project/echopile/)
 
-`echopile` is a Python application with a graphical user interface for processing and interpretation of low-strain impact pile integrity testing data (sonic echo method), with support for superlet-based time-frequency analysis.
+`echopile` is a Python application with a graphical user interface for processing and interpretation of low-strain impact pile integrity testing data (sonic echo method), with support for superlet-based time-frequency analysis. The interface is built on [Dash](https://dash.plotly.com/).
 
 Links: [PyPI](https://pypi.org/project/echopile/) | [GitHub repository](https://github.com/ilozovsky/echopile) | [Releases](https://github.com/ilozovsky/echopile/releases) | [GitHub Discussions](https://github.com/ilozovsky/echopile/discussions)
 
