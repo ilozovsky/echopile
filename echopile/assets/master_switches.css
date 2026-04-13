@@ -1,0 +1,11 @@
+﻿#superlet-switch.form-check-input:checked,
+#filter-switch.form-check-input:checked {
+  background-color: #cf5a8c;
+  border-color: #cf5a8c;
+}
+
+#superlet-switch.form-check-input:focus,
+#filter-switch.form-check-input:focus {
+  border-color: #cf5a8c;
+  box-shadow: 0 0 0 0.2rem rgba(207, 90, 140, 0.22);
+}

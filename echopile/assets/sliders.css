@@ -1,0 +1,28 @@
+
+.ep-main-slider {
+  overflow: visible;
+}
+
+.ep-main-slider .mantine-Slider-thumb {
+  width: 14px;
+  height: 14px;
+}
+
+.ep-main-slider .mantine-Slider-mark {
+  width: 5px;
+  height: 5px;
+  margin-top: -1px;
+}
+
+.ep-main-slider .mantine-Slider-markLabel {
+  margin-top: 6px;
+}
+
+.ep-main-slider .mantine-Slider-label {
+  background-color: #7b8088;
+  color: #ffffff;
+  padding: 4px;
+  z-index: 200;
+  top: calc(100% + 4px);
+  bottom: auto;
+}
