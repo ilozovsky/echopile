@@ -103,7 +103,7 @@ The interface opens at:
 
 - Interactive GUI with per-feature help boxes
 - Signal, spectrum, and SLT views
-- Built on Dash with Plotly, Dash Mantine Components and Dash Bootstrap Components
+- Built on [Dash](https://dash.plotly.com/) with [Plotly](https://plotly.com/python/), [Dash Mantine Components](https://www.dash-mantine-components.com/), and [Dash Bootstrap Components](https://www.dash-bootstrap-components.com/)
 
 ## Supported input formats
 
