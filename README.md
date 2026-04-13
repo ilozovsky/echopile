@@ -103,6 +103,7 @@ The interface opens at:
 
 - Interactive GUI with per-feature help boxes
 - Signal, spectrum, and SLT views
+- Built on Dash with Plotly, Dash Mantine Components and Dash Bootstrap Components
 
 ## Supported input formats
 
@@ -127,3 +128,5 @@ Bugs / features -> [GitHub Issues](https://github.com/ilozovsky/echopile/issues)
 ## Superlet Analysis Reference
 
 Moca, V. V., Buzsaki, G., Draguhn, A. (2021). Time-frequency super-resolution with superlets. *Nature Communications*, 12, 337. <a href="https://doi.org/10.1038/s41467-020-20539-9" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41467-020-20539-9</a>
+
+The `echopile` superlet implementation is a modified adaptation of [TransylvanianInstituteOfNeuroscience/Superlets](https://github.com/TransylvanianInstituteOfNeuroscience/Superlets/).
