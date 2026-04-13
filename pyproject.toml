@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "echopile"
 version = "0.95.0"
-description = "Dash application for pile integrity signal analysis"
+description = "Dash application for low-strain impact integrity testing of deep foundations "
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [
-  {name = "echopile contributors"},
+  {name = "Ilya Lozovsky"},
 ]
 dependencies = [
   "dash>=2.14",
