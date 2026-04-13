@@ -2,13 +2,17 @@
 
 `echopile` is a Dash application for pile integrity signal loading, processing, and visual analysis.
 
+First public release: [v0.95.0](https://github.com/ilozovsky/echopile/releases/tag/v0.95.0)
+
+Documentation is still under construction. If you need help using `echopile`, feel free to open a GitHub Discussion or contact the author.
+
 ## Requirements
 
 - Python 3.10 or newer
 
 ## Install
 
-Core install:
+Install from the repository:
 
 ```bash
 pip install .
@@ -18,6 +22,12 @@ Install with SEG-Y support:
 
 ```bash
 pip install .[segy]
+```
+
+Install from the first public release artifact:
+
+```bash
+pip install https://github.com/ilozovsky/echopile/releases/download/v0.95.0/echopile-0.95.0-py3-none-any.whl
 ```
 
 ## Run
@@ -36,13 +46,15 @@ python -m echopile
 
 The app starts on `http://127.0.0.1:8050` by default.
 
-## Example workflow
+## Examples
 
-1. Launch the app.
-2. Load one of the files from [`examples/`](examples/).
-3. Start with [`Vel (Z_component) (big probe)_F_2000.snc`](examples/Vel%20(Z_component)%20(big%20probe)_F_2000.snc) to verify the full SNC workflow.
-4. Use [`A_9_kazachya.pp.CSV`](examples/A_9_kazachya.pp.CSV) for PET import and [`ZBL1.txt`](examples/ZBL1.txt) for ZBL text import.
-5. If SEG-Y support is installed, load [`0305_no-arm.sgy`](examples/0305_no-arm.sgy).
+The curated public example set is under [`examples/`](examples/):
+
+- [`Vel (Z_component) (big probe)_F_2000.snc`](examples/Vel%20(Z_component)%20(big%20probe)_F_2000.snc) for SNC workflow validation
+- [`A_9_kazachya.pp.CSV`](examples/A_9_kazachya.pp.CSV) for PET CSV import
+- [`ZBL1.txt`](examples/ZBL1.txt) for ZBL text import
+- [`signal.txt`](examples/signal.txt) for plain text signal loading
+- [`0305_no-arm.sgy`](examples/0305_no-arm.sgy) for SEG-Y loading when installed with `.[segy]`
 
 ## Tests
 
